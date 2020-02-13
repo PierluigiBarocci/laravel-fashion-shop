@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('homepage');
+Route::get('/', 'ClothController@index')->name('homepage');
